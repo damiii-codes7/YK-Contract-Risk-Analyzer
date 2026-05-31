@@ -14,7 +14,7 @@ except:
 
 client = Groq(api_key=api_key)
 
-st.set_page_config(page_title="YK Contract — Risk Analyzer", page_icon="📋", layout="wide")
+st.set_page_config(page_title="YK Contract", page_icon="📋", layout="wide")
 
 st.markdown("""
 <style>
@@ -54,7 +54,7 @@ AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 <div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.5s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#2D9CDB;'>CONTRACT</div>
 </div>
 <div style='overflow:hidden;margin-bottom:2rem;'>
-<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI Contract Intelligence</div>
+<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI Contract Intelligence — Indian Law Made Accessible</div>
 </div>
 <div style='display:inline-block;padding:2rem 3rem;border:1px solid #181818;'>
 <div style='font-family:Space Mono,monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.2em;color:#2D9CDB;margin-bottom:0.5rem;'>SYSTEM STATUS</div>
@@ -62,9 +62,6 @@ AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 <div style='font-family:Space Mono,monospace;font-size:0.65rem;color:#888;'>12 Indian laws loaded // awaiting contract</div>
 </div>
 </div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
 <hr style='border-color:#181818;margin:0;'>
 <div style='overflow:hidden;padding:1rem 0;border-bottom:1px solid #181818;'>
 <div style='display:flex;width:max-content;animation:marquee 35s linear infinite;font-family:Space Mono,monospace;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#444;white-space:nowrap;'>
@@ -231,9 +228,9 @@ if uploaded_file:
             use_container_width=True
         )
 
-      st.markdown("""
+st.markdown("""
 <div style='text-align:center;padding:1rem;font-family:Space Mono,monospace;
 font-size:0.55rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;'>
-Always consult a legal professional before signing.<br>Adv. Damini Yasodai — YK Legal
+Always consult a legal professional before signing contracts.<br>Adv. Damini Yasodai — YK Legal
 </div>
 """, unsafe_allow_html=True)
