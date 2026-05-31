@@ -14,7 +14,7 @@ except:
 
 client = Groq(api_key=api_key)
 
-st.set_page_config(page_title="ContractGuard", page_icon="📋", layout="wide")
+st.set_page_config(page_title="YK Contract — Risk Analyzer", page_icon="📋", layout="wide")
 
 st.markdown("""
 <style>
@@ -33,7 +33,6 @@ hr { border-color: #181818 !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# ---- HERO ----
 st.markdown("""
 <style>
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
@@ -49,13 +48,13 @@ st.markdown("""
 AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 </div>
 <div style='overflow:hidden;'>
-<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.3s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#ffffff;'>CONTRACT</div>
+<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.3s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#ffffff;'>YK</div>
 </div>
 <div style='overflow:hidden;'>
-<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.5s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#2D9CDB;'>GUARD</div>
+<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.5s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#2D9CDB;'>CONTRACT</div>
 </div>
 <div style='overflow:hidden;margin-bottom:2rem;'>
-<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI CONTRACT RISK ANALYZER</div>
+<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI Contract Intelligence by Adv. Damini Yasodai</div>
 </div>
 <div style='display:inline-block;padding:2rem 3rem;border:1px solid #181818;'>
 <div style='font-family:Space Mono,monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.2em;color:#2D9CDB;margin-bottom:0.5rem;'>SYSTEM STATUS</div>
@@ -65,7 +64,6 @@ AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 </div>
 """, unsafe_allow_html=True)
 
-# ---- TICKER ----
 st.markdown("""
 <hr style='border-color:#181818;margin:0;'>
 <div style='overflow:hidden;padding:1rem 0;border-bottom:1px solid #181818;'>
@@ -82,12 +80,10 @@ st.markdown("""
 <span style='padding:0 2rem;'>Companies Act 2013</span><span style='color:#2D9CDB;padding:0 1rem;'>◆</span>
 <span style='padding:0 2rem;'>Specific Relief Act 1963</span><span style='color:#2D9CDB;padding:0 1rem;'>◆</span>
 <span style='padding:0 2rem;'>Arbitration Act 1996</span><span style='color:#2D9CDB;padding:0 1rem;'>◆</span>
-<span style='padding:0 2rem;'>Consumer Protection Act 2019</span><span style='color:#2D9CDB;padding:0 1rem;'>◆</span>
 </div>
 </div>
 """, unsafe_allow_html=True)
 
-# ---- STEP 1: CONTRACT TYPE ----
 st.markdown("""
 <div style='font-family:Space Mono,monospace;font-size:0.65rem;text-transform:uppercase;
 letter-spacing:0.2em;color:#888;margin:3rem 0 1rem 0;'>
@@ -112,7 +108,6 @@ contract_type = st.selectbox("", [
     "Other Commercial Contract"
 ], label_visibility="collapsed")
 
-# ---- STEP 2: UPLOAD ----
 st.markdown("""
 <div style='font-family:Space Mono,monospace;font-size:0.65rem;text-transform:uppercase;
 letter-spacing:0.2em;color:#888;margin:2rem 0 1rem 0;'>
@@ -230,8 +225,8 @@ if uploaded_file:
 
         st.download_button(
             label="EXPORT CONTRACT RISK REPORT →",
-            data=f"CONTRACTGUARD — RISK ANALYSIS REPORT\n{'='*50}\nContract: {uploaded_file.name}\nType: {contract_type}\n\n{result}",
-            file_name="ContractGuard_Risk_Report.txt",
+            data=f"YK CONTRACT — RISK ANALYSIS REPORT\n{'='*50}\nContract: {uploaded_file.name}\nType: {contract_type}\n\n{result}",
+            file_name="YKContract_Risk_Report.txt",
             mime="text/plain",
             use_container_width=True
         )
@@ -239,7 +234,7 @@ if uploaded_file:
         st.markdown("""
         <div style='text-align:center;margin-top:1rem;padding-bottom:4vh;'>
         <span style='font-family:Space Mono,monospace;font-size:0.6rem;color:#444;letter-spacing:0.1em;'>
-        ContractGuard is an AI tool. Always consult a qualified legal professional before signing contracts.
+        YK Contract is an AI tool by Adv. Damini Yasodai. Always consult a legal professional before signing.
         </span>
         </div>
         """, unsafe_allow_html=True)
