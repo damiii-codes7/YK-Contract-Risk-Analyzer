@@ -231,14 +231,9 @@ if uploaded_file:
             use_container_width=True
         )
 
-        st.markdown("""
-        <div style='text-align:center;margin-top:1rem;padding-bottom:4vh;'>
-        <span style='font-family:Space Mono,monospace;font-size:0.6rem;color:#444;letter-spacing:0.1em;'>
-        YK Contract is an AI tool by Adv. Damini Yasodai. Always consult a legal professional before signing.
-        </span>
-        </div>
-        """, unsafe_allow_html=True)
+      st.markdown("""
 <div style='text-align:center;padding:1rem;font-family:Space Mono,monospace;
 font-size:0.55rem;color:#333;text-transform:uppercase;letter-spacing:0.1em;'>
-Adv. Damini Yasodai — YK Legal
+Always consult a legal professional before signing.<br>Adv. Damini Yasodai — YK Legal
 </div>
+""", unsafe_allow_html=True)
