@@ -54,7 +54,7 @@ AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 <div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.5s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#2D9CDB;'>CONTRACT</div>
 </div>
 <div style='overflow:hidden;margin-bottom:2rem;'>
-<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI Contract Intelligence by Adv. Damini Yasodai</div>
+<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI Contract Intelligence</div>
 </div>
 <div style='display:inline-block;padding:2rem 3rem;border:1px solid #181818;'>
 <div style='font-family:Space Mono,monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.2em;color:#2D9CDB;margin-bottom:0.5rem;'>SYSTEM STATUS</div>
