@@ -54,12 +54,12 @@ AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 <div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.5s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(4rem,10vw,8rem);line-height:0.9;color:#2D9CDB;'>CONTRACT</div>
 </div>
 <div style='overflow:hidden;margin-bottom:2rem;'>
-<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>AI Contract Intelligence — Indian Law Made Accessible</div>
+<div style='transform:translateY(115%);animation:slideUp 1.2s cubic-bezier(0.16,1,0.3,1) 0.7s forwards;font-family:Bebas Neue,sans-serif;font-size:clamp(1.5rem,4vw,3rem);line-height:0.9;color:#888;'>Shield the World of Busines.</div>
 </div>
 <div style='display:inline-block;padding:2rem 3rem;border:1px solid #181818;'>
 <div style='font-family:Space Mono,monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.2em;color:#2D9CDB;margin-bottom:0.5rem;'>SYSTEM STATUS</div>
 <div style='font-family:Bebas Neue,sans-serif;font-size:3rem;color:#ffffff;line-height:1;'>READY</div>
-<div style='font-family:Space Mono,monospace;font-size:0.65rem;color:#888;'>12 Indian laws loaded // awaiting contract</div>
+<div style='font-family:Space Mono,monospace;font-size:0.65rem;color:#888;'>Legal Backbone of Contracts</div>
 </div>
 </div>
 <hr style='border-color:#181818;margin:0;'>
@@ -84,7 +84,7 @@ AI-Powered &nbsp;|&nbsp; Indian Contract Law &nbsp;|&nbsp; 12 Laws Loaded
 st.markdown("""
 <div style='font-family:Space Mono,monospace;font-size:0.65rem;text-transform:uppercase;
 letter-spacing:0.2em;color:#888;margin:3rem 0 1rem 0;'>
-01 / SELECT CONTRACT TYPE
+CONTRACT TYPE
 </div>
 """, unsafe_allow_html=True)
 
@@ -108,7 +108,7 @@ contract_type = st.selectbox("", [
 st.markdown("""
 <div style='font-family:Space Mono,monospace;font-size:0.65rem;text-transform:uppercase;
 letter-spacing:0.2em;color:#888;margin:2rem 0 1rem 0;'>
-02 / UPLOAD CONTRACT DOCUMENT
+02 / UPLOAD DOCUMENT
 </div>
 """, unsafe_allow_html=True)
 
