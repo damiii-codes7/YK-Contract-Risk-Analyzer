@@ -108,7 +108,7 @@ contract_type = st.selectbox("", [
 st.markdown("""
 <div style='font-family:Space Mono,monospace;font-size:0.65rem;text-transform:uppercase;
 letter-spacing:0.2em;color:#888;margin:2rem 0 1rem 0;'>
-02 / UPLOAD DOCUMENT
+UPLOAD DOCUMENT
 </div>
 """, unsafe_allow_html=True)
 
